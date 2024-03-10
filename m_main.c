@@ -3,7 +3,7 @@
 
 bus_t bus = {NULL, NULL, NULL, 0};
 
-/**i
+/**
 * main - the monty code interpreter
 * @argc: number of arguments
 * @argv: monty file location
@@ -45,6 +45,6 @@ int main(int argc, char *argv[])
 	}
 	monty_free_stack(stack);
 	fclose(file);
-	
+
 return (0);
 }

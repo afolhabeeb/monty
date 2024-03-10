@@ -20,7 +20,7 @@ void addnode(stack_t **head, int n)
 	}
 	if (aux)
 		aux->prev = new_node;
-	
+
 	new_node->n = n;
 	new_node->next = *head;
 	new_node->prev = NULL;

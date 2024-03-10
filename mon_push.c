@@ -26,7 +26,7 @@ void m_push(stack_t **head, unsigned int counter)
 			fclose(bus.file);
 			free(bus.content);
 			monty_free_stack(*head);
-			exit(EXIT_FAILURE); 
+			exit(EXIT_FAILURE);
 		}
 	}
 	else
